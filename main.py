@@ -2,8 +2,13 @@
     Question Bank Server
     Based on matching Student Profiency and Question Difficulty
 '''
+from qbank import QBank
 
 print("Hello AP CSC Perfomrance Task Project")
+
+question1 = QBank()
+print(question1.Id)
+print(question1.getId())
 
 # TODO  Create DataSet:  a) Students  b) Question Bank
 #           student: name, progress  
@@ -15,5 +20,3 @@ print("Hello AP CSC Perfomrance Task Project")
 #           choose appropriate question
 #            
 
-qBank = [(1,"question 1", "answer 1.1", "answer 1.2"), (2,"question 2", "answer 2.1", "answer 2.2")]
-print(qBank[1][0])
