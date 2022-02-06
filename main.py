@@ -6,6 +6,9 @@ from qbank import QBank
 
 print("Hello AP CSC Perfomrance Task Project")
 
+studentId = int(input("Enter your student Id: "))
+numQuestions = int(input("Enter how many questions do you want to generate: "))
+
 question1 = QBank()
 print(question1.Id)
 print(question1.getId())
