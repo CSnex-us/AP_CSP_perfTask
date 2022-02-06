@@ -9,3 +9,7 @@ def q_Selector():
     # function args: student, topic/standard
     # returns either a single question or a set of questions
     pass
+
+def q_Answer():
+    
+    pass
